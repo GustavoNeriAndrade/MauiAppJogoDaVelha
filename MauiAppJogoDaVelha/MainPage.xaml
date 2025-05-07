@@ -20,12 +20,20 @@
             <Setter Property="BorderColor" Value="DeepPink" />
         </Style>
     </ContentPage.Resources>
-    
-    <Grid RowDefinitions="*, *, *, *" 
+
+    <Grid>
+        <Image Source="fuecoco.jpg"
+           Aspect="AspectFill"
+           Opacity="0.2"
+           Grid.RowSpan="4"
+           Grid.ColumnSpan="3"
+           IsEnabled="False" />
+
+        <Grid RowDefinitions="*, *, *, *" 
           ColumnDefinitions="*, *, *"
           ColumnSpacing="10" RowSpacing="10" Margin="10">
         
-        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" 
+        <Label Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3" 
                Text="Jogo da Velha" />
 
         <Button x:Name="btn10" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked"/>
@@ -40,6 +48,6 @@
         <Button x:Name="btn31" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked"/>
         <Button x:Name="btn32" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked"/>
 
+        </Grid>
     </Grid>
-
 </ContentPage>
