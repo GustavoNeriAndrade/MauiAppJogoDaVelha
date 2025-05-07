@@ -6,15 +6,15 @@
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
             <GradientStop Color="Grey" Offset="0.3" />
-            <GradientStop Color="DeepSkyBlue" Offset="1.1" />
+            <GradientStop Color="FloralWhite" Offset="1.1" />
         </LinearGradientBrush>    
     </ContentPage.Background>
 
     <ContentPage.Resources>
         <Style TargetType="Button">
             <Setter Property="BackgroundColor" Value="Transparent" />
-            <Setter Property="CornerRadius" Value="15" />
-            <Setter Property="TextColor" Value="White" />
+            <Setter Property="CornerRadius" Value="40" />
+            <Setter Property="TextColor" Value="DarkOliveGreen" />
             <Setter Property="FontSize" Value="80" />
             <Setter Property="BorderWidth" Value="1" />
             <Setter Property="BorderColor" Value="DeepPink" />

@@ -131,6 +131,14 @@
                 Zerar();
             }
 
+            // Verificação de empate
+            if (!btn10.IsEnabled && !btn11.IsEnabled && !btn12.IsEnabled &&
+                !btn20.IsEnabled && !btn21.IsEnabled && !btn22.IsEnabled &&
+                !btn30.IsEnabled && !btn31.IsEnabled && !btn32.IsEnabled)
+            {
+                DisplayAlert("Empate", "O jogo empatou!", "OK");
+                Zerar();
+            }
 
 
 
